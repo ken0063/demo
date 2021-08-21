@@ -1,15 +1,20 @@
+import '@fontsource/space-mono/400.css';
+
 const typography = {
   fonts: {
-    1: `'Space Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    body: `'Space Mono' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
   },
   fontSizes: {
-    1: '24px',
-    2: '16px',
+    lg: '24px',
+    md: '20px',
+    sm: '15px',
+    xs: '12px',
   },
   fontWeights: {
-    1: '400',
-    2: '500',
-    3: '700',
+    normal: 400,
+    medium: 500,
+    bold: 700,
+    extrabold: 900,
   },
 };
 
